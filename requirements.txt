@@ -1,0 +1,5 @@
+numpy
+torch
+backpack-for-pytorch
+matplotlib
+scipy
