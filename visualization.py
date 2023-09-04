@@ -44,7 +44,7 @@ corr = np.corrcoef(gt_parameters, estimated_parameters)[0,1]
 # Plot the y=x line
 ax.plot(np.arange(0, 8), np.arange(0, 8), color='g', label='y=x')
 # Make the scatter plot
-ax.scatter(gt_parameters, estimated_parameters, color='b', label='estimated', s=0.3)
+ax.scatter(gt_parameters, estimated_parameters, color='b', label='estimated v.s. real', s=0.3)
 # Add a text box at the lower right corner that shows the pearson correlation coefficient
 ax.text(0.5, 0.1, 'Pearsons\' r: {:.3f}'.format(corr), transform=ax.transAxes, fontsize=14, verticalalignment='top')
 # Set the title
