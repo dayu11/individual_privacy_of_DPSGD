@@ -1,5 +1,7 @@
 # Individual privacy accounting for DP-SGD
 
+This repo implements the algorithm in [Individual Privacy Accounting for Differentially Private Stochastic Gradient Descent](https://arxiv.org/abs/2206.02617) for training ResNet-20 on CIFAR-10.
+
 ## Build the environment
 ```pip install -r requirements.txt```
 
